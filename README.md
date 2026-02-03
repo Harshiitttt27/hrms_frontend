@@ -1,16 +1,47 @@
-# React + Vite
+## HRMS FRONTEND
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Human Resource Management System (HRMS) Frontend built with React, Vite, and Tailwind CSS, integrated with a live Django REST API backend.
 
-Currently, two official plugins are available:
+# Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Dashboard
 
-## React Compiler
+> Total employees
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> Present / Absent summary (real-time)
 
-## Expanding the ESLint configuration
+## Employee Management
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> View employee cards
+
+> Create & delete employees
+
+## Attendance Management
+
+> Mark Present / Absent
+
+> Filter attendance by date
+
+> Attendance summary per employee
+
+> Fully Responsive
+
+> Works on mobile, tablet, and desktop
+
+## Live API Integration
+
+> Connected to Django REST backend
+
+> Fast Performance
+
+> Built using Vite
+
+## Run Locally
+> Install node modules 
+```
+npm install
+```
+> Run server
+```
+npm run dev
+```
